@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jovian Careers</title>
+    <title>TCTS WEBQ</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -16,29 +16,34 @@
   </head>
   <body>
     {% include 'nav.html' %}
-    <img class="img-fluid" id="banner" src="https://jovian-careers-website.aakashns.repl.co/static/banner.jpeg" >
     <div class="container">
       <h1 class="text-center mt-2 mb-4">
-        {{company_name}} Careers
+        <br>
+        TCTS WEBQ AUTOMATION FRAMEWORK
       </h1>
       <div class="row" style="margin-bottom:32px">
         <div class="col-md-6">
+      <h3>Overview</h3>
       <p class="lead">
-        At Jovian, we’re on a mission to build the most highly reputed technical university in the world, and we’re building it completely online. Our flagship data science program helps working professionals with a background in programming or analytics make a career transition to data science. We also offer several free beginner-friendly courses and have a fast-growing community of 200,000+ users.
+        Telecom Service Providers are rapidly transforming their legacy networks to support new IP and Multimedia services. Network equipment manufacturers (NEMs) face a constant challenge to expedite the development, testing and deployment of new network elements that offer a wide range of value-added, revenue generating services. Testing of such complex network elements in a service-oriented network in terms of interoperability, service quality and end-user experience often pose a significant challenge.
+      </p>
+      <h3>TCTS Advantage</h3>
+      <p class="lead">
+        TCTS’ offer product validation & QA services to OEMs and Service Providers leveraging over two decades of experience in product engineering and network design & operations. Our system testing & QA services are designed to ensure maximum test coverage and handsome productivity gains from test automation. As the networking industry continues to become more competitive globally, TCTS offers multiple engagement options that include near-shore and offshore execution, and SLA driven engagements.
       </p>
         </div>
         <div class="d-none d-md-block col-md-6">
-        <img src="/static/people.jpeg" style="height:320px;border-radius:4px;">
+        <img src="/static/WEBQ.png" style="height:550px;border-radius:6px;">
         </div>
       </div>
-      <h2 class="text-center mt-2 mb-4">Open Positions</h2>
+      <h2 class="text-center mt-2 mb-4">WEBQ Platforms</h2>
       <div>
-        {% for job in jobs %}
-          {% include 'jobitem.html' %}
+        {% for service in platform %}
+          {% include 'service.html' %}
         {% endfor %}
       </div>
       <div class="text-center">
-      <a class="btn btn-primary btn-lg" href="mailto:hello@jovian.ai?subject=Question%20about%20Job%20Opernings&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20questions%3A%20%3Center%20question%20here%3E%0D%0A">Contact Us</a>
+      <a class="btn btn-primary btn-lg" href="mailto:manasha.biswal@tatacommunications.com?subject=Enquiry%20about%20WEBQ%20Test%20Automation%20Framework">Contact Us</a>
       </div>
     </div>
     {% include 'footer.html' %}
