@@ -1,2 +1,2 @@
-# jovian-careers-website
-A careers website for Jovian
+# This is website for WEBQ automation framework capabilities
+Test Automation framework for WEBQ products

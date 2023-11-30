@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "repl_python3_jovian-careers-website"
+name = "webq_python3_capability-website"
 version = "0.1.0"
 description = ""
-authors = ["aakashns <<>>"]
+authors = ["karthitcts <<>>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
