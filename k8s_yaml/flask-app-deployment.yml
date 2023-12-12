@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: dockerimage
+        image: kjayacha/webqimage:latest
         ports:
-        - containerPort: 5000
+        - containerPort: 3001
 
